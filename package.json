@@ -1,0 +1,26 @@
+{
+  "name": "atelier",
+  "private": true,
+  "version": "1.0.0",
+  "workspaces": [
+    "apps/*"
+  ],
+  "scripts": {
+    "dev": "concurrently -n api,web -c blue,green \"npm run dev:api\" \"npm run dev:web\"",
+    "dev:api": "npm run dev -w @atelier/api",
+    "dev:web": "npm run dev -w @atelier/web",
+    "build": "npm run build -w @atelier/api && npm run build -w @atelier/web",
+    "test": "npm run test -w @atelier/web --if-present",
+    "test:e2e": "playwright test",
+    "test:e2e:headed": "playwright test --headed",
+    "db:generate": "npm run db:generate -w @atelier/api",
+    "db:migrate": "npm run db:migrate -w @atelier/api",
+    "db:push": "npm run db:push -w @atelier/api",
+    "db:seed": "npm run db:seed -w @atelier/api",
+    "setup": "npm install && npm run db:generate && npm run db:push && npm run db:seed"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.62.1",
+    "concurrently": "^9.2.1"
+  }
+}

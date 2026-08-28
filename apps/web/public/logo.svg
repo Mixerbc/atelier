@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 280 96" fill="none" role="img" aria-label="Atelier">
+  <defs>
+    <linearGradient id="atelierMark" x1="12" y1="12" x2="84" y2="84" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F5CEE2"/>
+      <stop offset="0.5" stop-color="#F4CDBB"/>
+      <stop offset="1" stop-color="#FFF8F2"/>
+    </linearGradient>
+  </defs>
+  <rect x="8" y="12" width="72" height="72" rx="36" fill="url(#atelierMark)" stroke="#B88A4A" stroke-width="1.5"/>
+  <path d="M44 28c-8.2 0-14 5.4-14 13.2 0 5.2 2.8 9.2 7.6 12.4L28 68h9.2l7.4-11.6h.8L53 68H62L52.2 53.4c4.8-3.2 7.8-7.2 7.8-12.2C60 33.4 54.2 28 44 28Zm0 8.2c3.8 0 6.4 2.6 6.4 6.4S47.8 49 44 49s-6.4-2.6-6.4-6.4 2.6-6.4 6.4-6.4Z" fill="#493C37"/>
+  <circle cx="44" cy="30.5" r="1.8" fill="#B88A4A"/>
+  <text x="98" y="58" fill="#493C37" font-family="Cormorant Garamond, Georgia, serif" font-size="42" font-weight="600" letter-spacing="0.08em">Atelier</text>
+  <path d="M100 66h148" stroke="#D7B77A" stroke-width="1" stroke-linecap="round"/>
+</svg>

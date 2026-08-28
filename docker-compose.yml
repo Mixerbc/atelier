@@ -1,0 +1,57 @@
+services:
+  db:
+    image: postgres:16-alpine
+    restart: unless-stopped
+    environment:
+      POSTGRES_USER: atelier
+      POSTGRES_PASSWORD: atelier
+      POSTGRES_DB: atelier
+    ports:
+      - "5432:5432"
+    volumes:
+      - atelier_pg:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U atelier -d atelier"]
+      interval: 5s
+      timeout: 5s
+      retries: 10
+
+  api:
+    build:
+      context: .
+      dockerfile: apps/api/Dockerfile
+    restart: unless-stopped
+    environment:
+      NODE_ENV: production
+      PORT: 4000
+      DATABASE_URL: postgresql://atelier:atelier@db:5432/atelier?schema=public
+      JWT_SECRET: ${JWT_SECRET:-docker-dev-secret-change-me-please}
+      JWT_EXPIRES_IN: 7d
+      COOKIE_NAME: atelier_admin_token
+      CORS_ORIGIN: http://localhost:8080,http://localhost:5173
+      UPLOAD_DIR: uploads
+      MAX_UPLOAD_BYTES: 2000000
+      ADMIN_EMAIL: admin@atelier.mx
+      ADMIN_PASSWORD: AtelierAdmin123!
+      WHATSAPP_NUMBER: "5214421234567"
+    ports:
+      - "4000:4000"
+    volumes:
+      - atelier_uploads:/app/uploads
+    depends_on:
+      db:
+        condition: service_healthy
+
+  web:
+    build:
+      context: .
+      dockerfile: apps/web/Dockerfile
+    restart: unless-stopped
+    ports:
+      - "8080:80"
+    depends_on:
+      - api
+
+volumes:
+  atelier_pg:
+  atelier_uploads:
