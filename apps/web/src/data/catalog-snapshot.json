@@ -38,7 +38,7 @@
       {
         "id": "cmtd57ioj001kurikso84sg3r",
         "productId": "cmt63cqxy001durysjbjl8c95",
-        "url": "/images/products/vestido.svg",
+        "url": "/images/products/vestido.png",
         "alt": "Vestido midi",
         "isPrimary": true,
         "sortOrder": 0,
@@ -89,7 +89,7 @@
       {
         "id": "cmtd57ip3001lurikuna6wht3",
         "productId": "cmt63cqy3001gurysj9ksw32o",
-        "url": "/images/products/playera-clasica.svg",
+        "url": "/images/products/playera-clasica.png",
         "alt": "Playera clásica",
         "isPrimary": true,
         "sortOrder": 0,
@@ -1129,7 +1129,7 @@
       {
         "id": "cmtd57irk001purik8jn9ow5l",
         "productId": "cmt63cr1m005purysuzzt9fop",
-        "url": "/images/products/jean.svg",
+        "url": "/images/products/jean.png",
         "alt": "Jean tapered",
         "isPrimary": true,
         "sortOrder": 0,
