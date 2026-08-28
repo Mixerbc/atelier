@@ -17,17 +17,13 @@ export function useProducts() {
     setLoading(true)
     getProducts()
       .then((items) => {
-        if (active) setProducts(items)
+        if (active) {
+          setProducts(items)
+          setError(null)
+        }
       })
       .catch(() => {
-        if (!active) return
-        const hosted =
-          typeof window !== 'undefined' && window.location.hostname !== 'localhost'
-        setError(
-          hosted
-            ? 'Esta web aún no tiene el servidor de productos. En tu computadora sí están: abre http://localhost:5173'
-            : 'No pudimos cargar el catálogo. Intenta de nuevo.',
-        )
+        if (active) setError('No pudimos cargar el catálogo. Intenta de nuevo.')
       })
       .finally(() => {
         if (active) setLoading(false)

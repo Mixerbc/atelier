@@ -234,7 +234,7 @@ export const adminApi = {
 }
 
 export function mediaUrl(path: string | null | undefined): string {
-  if (!path) return '/logo.png'
+  if (!path) return '/logo.svg'
   if (path.startsWith('http://') || path.startsWith('https://') || path.startsWith('data:')) {
     return path
   }

@@ -1,0 +1,52 @@
+{
+  "id": "default",
+  "storeName": "Atelier",
+  "tagline": "Ropa y estilo contemporáneo",
+  "logoUrl": null,
+  "whatsappNumber": "5214421234567",
+  "address": "Av. Antea 1088, Juriquilla, Querétaro",
+  "phone": "4421234567",
+  "email": "hola@atelier.mx",
+  "currency": "Bs",
+  "deliveryFeeCents": 8000,
+  "minimumOrderCents": 35000,
+  "hoursJson": [
+    {
+      "days": "Lunes a viernes",
+      "hours": "11:00 – 20:00"
+    },
+    {
+      "days": "Sábado",
+      "hours": "11:00 – 18:00"
+    },
+    {
+      "days": "Domingo",
+      "hours": "Cerrado"
+    }
+  ],
+  "deliveryZonesJson": [
+    "Zakia",
+    "Zibatá",
+    "Juriquilla",
+    "El Refugio",
+    "Centro Sur"
+  ],
+  "paymentMethodsJson": [
+    "Efectivo",
+    "Pago móvil",
+    "Otro pago"
+  ],
+  "socialJson": [
+    {
+      "name": "Instagram",
+      "url": "https://instagram.com"
+    },
+    {
+      "name": "Facebook",
+      "url": "https://facebook.com"
+    }
+  ],
+  "ticketFooter": "Gracias por tu compra. Te confirmaremos por WhatsApp.",
+  "cardPaymentAvailable": true,
+  "updatedAt": "2026-08-28T16:05:06.843Z"
+}

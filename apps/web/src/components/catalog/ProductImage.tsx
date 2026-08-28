@@ -16,7 +16,7 @@ export function ProductImage({ src, alt, className = '' }: ProductImageProps) {
       className={`h-full w-full object-cover ${className}`}
       loading="lazy"
       onError={(event) => {
-        event.currentTarget.src = '/logo.png'
+        event.currentTarget.src = '/logo.svg'
       }}
     />
   )

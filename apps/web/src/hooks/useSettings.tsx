@@ -8,7 +8,8 @@ import {
   type ReactNode,
 } from 'react'
 import { fallbackSettings, normalizeSettings, toBusinessConfig } from '../config/business'
-import { storeApi } from '../lib/api'
+import { canUseApi, storeApi } from '../lib/api'
+import { staticSettings } from '../data/staticCatalog'
 import type { BusinessConfig, BusinessSettings } from '../types'
 
 interface SettingsContextValue {
@@ -28,10 +29,12 @@ export function SettingsProvider({ children }: { children: ReactNode }) {
 
   const refresh = async () => {
     try {
-      const data = normalizeSettings(await storeApi.getSettings())
+      const source = canUseApi() ? await storeApi.getSettings() : staticSettings
+      const data = normalizeSettings(source)
       setSettings(data)
       setError(null)
     } catch {
+      setSettings(normalizeSettings(staticSettings))
       setError(null)
     } finally {
       setLoading(false)

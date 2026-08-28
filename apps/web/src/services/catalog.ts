@@ -1,4 +1,5 @@
-import { storeApi } from '../lib/api'
+import { canUseApi, storeApi } from '../lib/api'
+import { staticCategories, staticProducts } from '../data/staticCatalog'
 import {
   displayPriceCents,
   isProductAvailable,
@@ -7,8 +8,33 @@ import {
 } from '../lib/product'
 import type { AvailabilityFilter, Category, Product } from '../types'
 
+function applyProductParams(
+  items: Product[],
+  params?: { q?: string; category?: string; featured?: boolean },
+): Product[] {
+  return items.filter((product) => {
+    if (params?.featured && !product.isFeatured) return false
+    if (params?.category) {
+      const match =
+        product.categoryId === params.category || product.category?.slug === params.category
+      if (!match) return false
+    }
+    if (params?.q) {
+      const q = params.q.trim().toLowerCase()
+      const haystack = `${product.name} ${product.shortDescription} ${product.description}`.toLowerCase()
+      if (!haystack.includes(q)) return false
+    }
+    return true
+  })
+}
+
 export async function getCategories(): Promise<Category[]> {
-  return storeApi.getCategories()
+  if (!canUseApi()) return staticCategories
+  try {
+    return await storeApi.getCategories()
+  } catch {
+    return staticCategories
+  }
 }
 
 export async function getProducts(params?: {
@@ -16,19 +42,27 @@ export async function getProducts(params?: {
   category?: string
   featured?: boolean
 }): Promise<Product[]> {
-  return storeApi.getProducts(params)
+  if (!canUseApi()) return applyProductParams(staticProducts, params)
+  try {
+    return await storeApi.getProducts(params)
+  } catch {
+    return applyProductParams(staticProducts, params)
+  }
 }
 
 export async function getProductBySlug(slug: string): Promise<Product | null> {
+  if (!canUseApi()) {
+    return staticProducts.find((product) => product.slug === slug) ?? null
+  }
   try {
     return await storeApi.getProductBySlug(slug)
   } catch {
-    return null
+    return staticProducts.find((product) => product.slug === slug) ?? null
   }
 }
 
 export async function getFeaturedProducts(): Promise<Product[]> {
-  return storeApi.getProducts({ featured: true })
+  return getProducts({ featured: true })
 }
 
 export function filterProducts(

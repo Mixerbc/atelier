@@ -1,0 +1,38 @@
+[
+  {
+    "id": "cmt63cqwl000nurysfxrlhbn1",
+    "name": "Playeras",
+    "slug": "playeras",
+    "description": "Básicos",
+    "imageUrl": "/images/categories/playeras.svg",
+    "sortOrder": 1,
+    "isActive": true,
+    "deletedAt": null,
+    "createdAt": "2026-08-23T17:38:48.502Z",
+    "updatedAt": "2026-08-28T16:05:07.002Z"
+  },
+  {
+    "id": "cmt63cqwp000ourys6649tcpo",
+    "name": "Pantalones",
+    "slug": "pantalones",
+    "description": "Denim",
+    "imageUrl": "/images/categories/pantalones.svg",
+    "sortOrder": 2,
+    "isActive": true,
+    "deletedAt": null,
+    "createdAt": "2026-08-23T17:38:48.506Z",
+    "updatedAt": "2026-08-28T16:05:07.008Z"
+  },
+  {
+    "id": "cmt66c8mu000purk4v0gci6fi",
+    "name": "Vestidos",
+    "slug": "vestidos",
+    "description": "Prendas de vestir",
+    "imageUrl": "/images/categories/playeras.svg",
+    "sortOrder": 3,
+    "isActive": true,
+    "deletedAt": null,
+    "createdAt": "2026-08-23T19:02:23.670Z",
+    "updatedAt": "2026-08-28T16:05:07.013Z"
+  }
+]

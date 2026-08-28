@@ -1,0 +1,2063 @@
+[
+  {
+    "id": "cmt63cqxy001durysjbjl8c95",
+    "categoryId": "cmt66c8mu000purk4v0gci6fi",
+    "name": "Vestido midi",
+    "slug": "vestido-midi",
+    "shortDescription": "Vestido midi elegante en tono rosa con corte fluido.",
+    "description": "Vestido midi. Confección cuidadosa y materiales seleccionados para uso diario.",
+    "basePriceCents": 98000,
+    "salePriceCents": 85000,
+    "costCents": null,
+    "sku": null,
+    "brand": null,
+    "status": "PUBLISHED",
+    "isFeatured": true,
+    "isNew": true,
+    "hasVariants": false,
+    "trackInventory": true,
+    "stock": 12,
+    "minStock": 2,
+    "sortOrder": 1,
+    "deletedAt": null,
+    "createdAt": "2026-08-23T17:38:48.550Z",
+    "updatedAt": "2026-08-28T16:05:07.027Z",
+    "category": {
+      "id": "cmt66c8mu000purk4v0gci6fi",
+      "name": "Vestidos",
+      "slug": "vestidos",
+      "description": "Prendas de vestir",
+      "imageUrl": "/images/categories/playeras.svg",
+      "sortOrder": 3,
+      "isActive": true,
+      "deletedAt": null,
+      "createdAt": "2026-08-23T19:02:23.670Z",
+      "updatedAt": "2026-08-28T16:05:07.013Z"
+    },
+    "images": [
+      {
+        "id": "cmtd57ioj001kurikso84sg3r",
+        "productId": "cmt63cqxy001durysjbjl8c95",
+        "url": "/images/products/vestido.svg",
+        "alt": "Vestido midi",
+        "isPrimary": true,
+        "sortOrder": 0,
+        "createdAt": "2026-08-28T16:05:07.027Z"
+      }
+    ],
+    "extras": [],
+    "attributes": [],
+    "variants": [],
+    "displayPriceCents": 85000
+  },
+  {
+    "id": "cmt63cqy3001gurysj9ksw32o",
+    "categoryId": "cmt63cqwl000nurysfxrlhbn1",
+    "name": "Playera clásica",
+    "slug": "playera-clasica",
+    "shortDescription": "Playera clásica de algodón suave, ideal para el día a día.",
+    "description": "Playera clásica. Elige color y talla para ver disponibilidad y precio.",
+    "basePriceCents": 42000,
+    "salePriceCents": 35000,
+    "costCents": null,
+    "sku": null,
+    "brand": null,
+    "status": "PUBLISHED",
+    "isFeatured": true,
+    "isNew": true,
+    "hasVariants": true,
+    "trackInventory": true,
+    "stock": 0,
+    "minStock": 2,
+    "sortOrder": 2,
+    "deletedAt": null,
+    "createdAt": "2026-08-23T17:38:48.555Z",
+    "updatedAt": "2026-08-28T16:05:07.048Z",
+    "category": {
+      "id": "cmt63cqwl000nurysfxrlhbn1",
+      "name": "Playeras",
+      "slug": "playeras",
+      "description": "Básicos",
+      "imageUrl": "/images/categories/playeras.svg",
+      "sortOrder": 1,
+      "isActive": true,
+      "deletedAt": null,
+      "createdAt": "2026-08-23T17:38:48.502Z",
+      "updatedAt": "2026-08-28T16:05:07.002Z"
+    },
+    "images": [
+      {
+        "id": "cmtd57ip3001lurikuna6wht3",
+        "productId": "cmt63cqy3001gurysj9ksw32o",
+        "url": "/images/products/playera-clasica.svg",
+        "alt": "Playera clásica",
+        "isPrimary": true,
+        "sortOrder": 0,
+        "createdAt": "2026-08-28T16:05:07.048Z"
+      }
+    ],
+    "extras": [],
+    "attributes": [
+      {
+        "id": "cmtd57ip4001nurikb7yj4reb",
+        "productId": "cmt63cqy3001gurysj9ksw32o",
+        "attributeId": "cmt63cqvh0001urysouhp5hja",
+        "attribute": {
+          "id": "cmt63cqvh0001urysouhp5hja",
+          "name": "Color",
+          "slug": "color",
+          "sortOrder": 1,
+          "isActive": true,
+          "createdAt": "2026-08-23T17:38:48.461Z",
+          "updatedAt": "2026-08-28T16:05:06.860Z",
+          "values": [
+            {
+              "id": "cmt63cqvo0004uryswbqt2i0j",
+              "attributeId": "cmt63cqvh0001urysouhp5hja",
+              "name": "Negro",
+              "slug": "negro",
+              "abbreviation": null,
+              "hexCode": "#000000",
+              "imageUrl": null,
+              "sortOrder": 1,
+              "isActive": true,
+              "createdAt": "2026-08-23T17:38:48.468Z",
+              "updatedAt": "2026-08-28T16:05:06.872Z"
+            },
+            {
+              "id": "cmt63cqvr0006urys579quqfp",
+              "attributeId": "cmt63cqvh0001urysouhp5hja",
+              "name": "Blanco",
+              "slug": "blanco",
+              "abbreviation": null,
+              "hexCode": "#FFFFFF",
+              "imageUrl": null,
+              "sortOrder": 2,
+              "isActive": true,
+              "createdAt": "2026-08-23T17:38:48.471Z",
+              "updatedAt": "2026-08-28T16:05:06.877Z"
+            },
+            {
+              "id": "cmt63cqvv0008uryspytmbwqz",
+              "attributeId": "cmt63cqvh0001urysouhp5hja",
+              "name": "Rojo",
+              "slug": "rojo",
+              "abbreviation": null,
+              "hexCode": "#DC2626",
+              "imageUrl": null,
+              "sortOrder": 3,
+              "isActive": true,
+              "createdAt": "2026-08-23T17:38:48.475Z",
+              "updatedAt": "2026-08-28T16:05:06.882Z"
+            },
+            {
+              "id": "cmt63cqvy000aurysy33q911h",
+              "attributeId": "cmt63cqvh0001urysouhp5hja",
+              "name": "Azul",
+              "slug": "azul",
+              "abbreviation": null,
+              "hexCode": "#2563EB",
+              "imageUrl": null,
+              "sortOrder": 4,
+              "isActive": true,
+              "createdAt": "2026-08-23T17:38:48.479Z",
+              "updatedAt": "2026-08-28T16:05:06.887Z"
+            },
+            {
+              "id": "cmt63cqw2000curystyu0oeyr",
+              "attributeId": "cmt63cqvh0001urysouhp5hja",
+              "name": "Beige",
+              "slug": "beige",
+              "abbreviation": null,
+              "hexCode": "#D2B48C",
+              "imageUrl": null,
+              "sortOrder": 5,
+              "isActive": true,
+              "createdAt": "2026-08-23T17:38:48.482Z",
+              "updatedAt": "2026-08-28T16:05:06.892Z"
+            }
+          ]
+        }
+      },
+      {
+        "id": "cmtd57ip4001ourikm69o6uxe",
+        "productId": "cmt63cqy3001gurysj9ksw32o",
+        "attributeId": "cmt63cqvk0002urys9ka0cfun",
+        "attribute": {
+          "id": "cmt63cqvk0002urys9ka0cfun",
+          "name": "Talla",
+          "slug": "talla",
+          "sortOrder": 2,
+          "isActive": true,
+          "createdAt": "2026-08-23T17:38:48.465Z",
+          "updatedAt": "2026-08-28T16:05:06.866Z",
+          "values": [
+            {
+              "id": "cmt63cqw5000eurysyr62s2f3",
+              "attributeId": "cmt63cqvk0002urys9ka0cfun",
+              "name": "Extra chica",
+              "slug": "xs",
+              "abbreviation": "XS",
+              "hexCode": null,
+              "imageUrl": null,
+              "sortOrder": 1,
+              "isActive": true,
+              "createdAt": "2026-08-23T17:38:48.486Z",
+              "updatedAt": "2026-08-28T16:05:06.902Z"
+            },
+            {
+              "id": "cmt63cqw9000guryshjdl22m8",
+              "attributeId": "cmt63cqvk0002urys9ka0cfun",
+              "name": "Chica",
+              "slug": "s",
+              "abbreviation": "S",
+              "hexCode": null,
+              "imageUrl": null,
+              "sortOrder": 2,
+              "isActive": true,
+              "createdAt": "2026-08-23T17:38:48.489Z",
+              "updatedAt": "2026-08-28T16:05:06.907Z"
+            },
+            {
+              "id": "cmt63cqwc000iurysdux30755",
+              "attributeId": "cmt63cqvk0002urys9ka0cfun",
+              "name": "Mediana",
+              "slug": "m",
+              "abbreviation": "M",
+              "hexCode": null,
+              "imageUrl": null,
+              "sortOrder": 3,
+              "isActive": true,
+              "createdAt": "2026-08-23T17:38:48.493Z",
+              "updatedAt": "2026-08-28T16:05:06.911Z"
+            },
+            {
+              "id": "cmt63cqwf000kurysl5jtgy2j",
+              "attributeId": "cmt63cqvk0002urys9ka0cfun",
+              "name": "Grande",
+              "slug": "l",
+              "abbreviation": "L",
+              "hexCode": null,
+              "imageUrl": null,
+              "sortOrder": 4,
+              "isActive": true,
+              "createdAt": "2026-08-23T17:38:48.496Z",
+              "updatedAt": "2026-08-28T16:05:06.916Z"
+            },
+            {
+              "id": "cmt63cqwi000murysd3823qyi",
+              "attributeId": "cmt63cqvk0002urys9ka0cfun",
+              "name": "Extra grande",
+              "slug": "xl",
+              "abbreviation": "XL",
+              "hexCode": null,
+              "imageUrl": null,
+              "sortOrder": 5,
+              "isActive": true,
+              "createdAt": "2026-08-23T17:38:48.499Z",
+              "updatedAt": "2026-08-28T16:05:06.921Z"
+            },
+            {
+              "id": "cmtc5renj000ourg8xv0ivs0o",
+              "attributeId": "cmt63cqvk0002urys9ka0cfun",
+              "name": "2XL",
+              "slug": "xxl",
+              "abbreviation": "XXL",
+              "hexCode": null,
+              "imageUrl": null,
+              "sortOrder": 6,
+              "isActive": true,
+              "createdAt": "2026-08-27T23:32:48.751Z",
+              "updatedAt": "2026-08-28T16:05:06.926Z"
+            },
+            {
+              "id": "cmtc5renn000qurg8il8fxkcq",
+              "attributeId": "cmt63cqvk0002urys9ka0cfun",
+              "name": "3XL",
+              "slug": "3xl",
+              "abbreviation": "3XL",
+              "hexCode": null,
+              "imageUrl": null,
+              "sortOrder": 7,
+              "isActive": true,
+              "createdAt": "2026-08-27T23:32:48.756Z",
+              "updatedAt": "2026-08-28T16:05:06.932Z"
+            },
+            {
+              "id": "cmtc5rens000surg87jymvcxq",
+              "attributeId": "cmt63cqvk0002urys9ka0cfun",
+              "name": "28",
+              "slug": "28",
+              "abbreviation": "28",
+              "hexCode": null,
+              "imageUrl": null,
+              "sortOrder": 20,
+              "isActive": true,
+              "createdAt": "2026-08-27T23:32:48.760Z",
+              "updatedAt": "2026-08-28T16:05:06.936Z"
+            },
+            {
+              "id": "cmtc5renv000uurg8pawz4qwo",
+              "attributeId": "cmt63cqvk0002urys9ka0cfun",
+              "name": "30",
+              "slug": "30",
+              "abbreviation": "30",
+              "hexCode": null,
+              "imageUrl": null,
+              "sortOrder": 21,
+              "isActive": true,
+              "createdAt": "2026-08-27T23:32:48.764Z",
+              "updatedAt": "2026-08-28T16:05:06.941Z"
+            },
+            {
+              "id": "cmtc5reo0000wurg88md1xgzt",
+              "attributeId": "cmt63cqvk0002urys9ka0cfun",
+              "name": "32",
+              "slug": "32",
+              "abbreviation": "32",
+              "hexCode": null,
+              "imageUrl": null,
+              "sortOrder": 22,
+              "isActive": true,
+              "createdAt": "2026-08-27T23:32:48.768Z",
+              "updatedAt": "2026-08-28T16:05:06.946Z"
+            },
+            {
+              "id": "cmtc5reo3000yurg852pi59rx",
+              "attributeId": "cmt63cqvk0002urys9ka0cfun",
+              "name": "34",
+              "slug": "34",
+              "abbreviation": "34",
+              "hexCode": null,
+              "imageUrl": null,
+              "sortOrder": 23,
+              "isActive": true,
+              "createdAt": "2026-08-27T23:32:48.772Z",
+              "updatedAt": "2026-08-28T16:05:06.951Z"
+            },
+            {
+              "id": "cmtc5reo70010urg8bayttsri",
+              "attributeId": "cmt63cqvk0002urys9ka0cfun",
+              "name": "36",
+              "slug": "36",
+              "abbreviation": "36",
+              "hexCode": null,
+              "imageUrl": null,
+              "sortOrder": 24,
+              "isActive": true,
+              "createdAt": "2026-08-27T23:32:48.775Z",
+              "updatedAt": "2026-08-28T16:05:06.956Z"
+            },
+            {
+              "id": "cmtc5reob0012urg843w4dsbn",
+              "attributeId": "cmt63cqvk0002urys9ka0cfun",
+              "name": "38",
+              "slug": "38",
+              "abbreviation": "38",
+              "hexCode": null,
+              "imageUrl": null,
+              "sortOrder": 25,
+              "isActive": true,
+              "createdAt": "2026-08-27T23:32:48.779Z",
+              "updatedAt": "2026-08-28T16:05:06.961Z"
+            },
+            {
+              "id": "cmtc5reoe0014urg8fq3xowba",
+              "attributeId": "cmt63cqvk0002urys9ka0cfun",
+              "name": "4",
+              "slug": "4",
+              "abbreviation": "4",
+              "hexCode": null,
+              "imageUrl": null,
+              "sortOrder": 30,
+              "isActive": true,
+              "createdAt": "2026-08-27T23:32:48.782Z",
+              "updatedAt": "2026-08-28T16:05:06.966Z"
+            },
+            {
+              "id": "cmtc5reoh0016urg819hge78f",
+              "attributeId": "cmt63cqvk0002urys9ka0cfun",
+              "name": "6",
+              "slug": "6",
+              "abbreviation": "6",
+              "hexCode": null,
+              "imageUrl": null,
+              "sortOrder": 31,
+              "isActive": true,
+              "createdAt": "2026-08-27T23:32:48.786Z",
+              "updatedAt": "2026-08-28T16:05:06.970Z"
+            },
+            {
+              "id": "cmtc5reol0018urg8cuvrf7r2",
+              "attributeId": "cmt63cqvk0002urys9ka0cfun",
+              "name": "8",
+              "slug": "8",
+              "abbreviation": "8",
+              "hexCode": null,
+              "imageUrl": null,
+              "sortOrder": 32,
+              "isActive": true,
+              "createdAt": "2026-08-27T23:32:48.789Z",
+              "updatedAt": "2026-08-28T16:05:06.975Z"
+            },
+            {
+              "id": "cmtc5reop001aurg8u1l7lk8t",
+              "attributeId": "cmt63cqvk0002urys9ka0cfun",
+              "name": "10",
+              "slug": "10",
+              "abbreviation": "10",
+              "hexCode": null,
+              "imageUrl": null,
+              "sortOrder": 33,
+              "isActive": true,
+              "createdAt": "2026-08-27T23:32:48.794Z",
+              "updatedAt": "2026-08-28T16:05:06.981Z"
+            },
+            {
+              "id": "cmtc5reot001curg8j3t5jv6d",
+              "attributeId": "cmt63cqvk0002urys9ka0cfun",
+              "name": "12",
+              "slug": "12",
+              "abbreviation": "12",
+              "hexCode": null,
+              "imageUrl": null,
+              "sortOrder": 34,
+              "isActive": true,
+              "createdAt": "2026-08-27T23:32:48.797Z",
+              "updatedAt": "2026-08-28T16:05:06.986Z"
+            },
+            {
+              "id": "cmtc5reox001eurg8ttoh7poe",
+              "attributeId": "cmt63cqvk0002urys9ka0cfun",
+              "name": "14",
+              "slug": "14",
+              "abbreviation": "14",
+              "hexCode": null,
+              "imageUrl": null,
+              "sortOrder": 35,
+              "isActive": true,
+              "createdAt": "2026-08-27T23:32:48.801Z",
+              "updatedAt": "2026-08-28T16:05:06.991Z"
+            },
+            {
+              "id": "cmtc5rep1001gurg8eg83bwoe",
+              "attributeId": "cmt63cqvk0002urys9ka0cfun",
+              "name": "Talla única",
+              "slug": "unica",
+              "abbreviation": "U",
+              "hexCode": null,
+              "imageUrl": null,
+              "sortOrder": 40,
+              "isActive": true,
+              "createdAt": "2026-08-27T23:32:48.805Z",
+              "updatedAt": "2026-08-28T16:05:06.997Z"
+            }
+          ]
+        }
+      }
+    ],
+    "variants": [
+      {
+        "id": "cmt63cqy8001murys7bbcrbam",
+        "productId": "cmt63cqy3001gurysj9ksw32o",
+        "sku": "PLAYERA-NEG-S",
+        "priceCents": null,
+        "priceDeltaCents": 0,
+        "stock": 5,
+        "minStock": 2,
+        "weightGrams": null,
+        "imageUrl": null,
+        "isActive": true,
+        "createdAt": "2026-08-23T17:38:48.561Z",
+        "updatedAt": "2026-08-28T16:05:07.056Z",
+        "attributes": [
+          {
+            "id": "cmt63cqy8001ourysvh9h7el6",
+            "variantId": "cmt63cqy8001murys7bbcrbam",
+            "attributeValueId": "cmt63cqvo0004uryswbqt2i0j",
+            "attributeValue": {
+              "id": "cmt63cqvo0004uryswbqt2i0j",
+              "attributeId": "cmt63cqvh0001urysouhp5hja",
+              "name": "Negro",
+              "slug": "negro",
+              "abbreviation": null,
+              "hexCode": "#000000",
+              "imageUrl": null,
+              "sortOrder": 1,
+              "isActive": true,
+              "createdAt": "2026-08-23T17:38:48.468Z",
+              "updatedAt": "2026-08-28T16:05:06.872Z",
+              "attribute": {
+                "id": "cmt63cqvh0001urysouhp5hja",
+                "name": "Color",
+                "slug": "color",
+                "sortOrder": 1,
+                "isActive": true,
+                "createdAt": "2026-08-23T17:38:48.461Z",
+                "updatedAt": "2026-08-28T16:05:06.860Z"
+              }
+            }
+          },
+          {
+            "id": "cmt63cqy8001puryspicgr0ld",
+            "variantId": "cmt63cqy8001murys7bbcrbam",
+            "attributeValueId": "cmt63cqw9000guryshjdl22m8",
+            "attributeValue": {
+              "id": "cmt63cqw9000guryshjdl22m8",
+              "attributeId": "cmt63cqvk0002urys9ka0cfun",
+              "name": "Chica",
+              "slug": "s",
+              "abbreviation": "S",
+              "hexCode": null,
+              "imageUrl": null,
+              "sortOrder": 2,
+              "isActive": true,
+              "createdAt": "2026-08-23T17:38:48.489Z",
+              "updatedAt": "2026-08-28T16:05:06.907Z",
+              "attribute": {
+                "id": "cmt63cqvk0002urys9ka0cfun",
+                "name": "Talla",
+                "slug": "talla",
+                "sortOrder": 2,
+                "isActive": true,
+                "createdAt": "2026-08-23T17:38:48.465Z",
+                "updatedAt": "2026-08-28T16:05:06.866Z"
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "cmt63cqyd001rurysa1gwvf8x",
+        "productId": "cmt63cqy3001gurysj9ksw32o",
+        "sku": "PLAYERA-NEG-M",
+        "priceCents": null,
+        "priceDeltaCents": 0,
+        "stock": 10,
+        "minStock": 2,
+        "weightGrams": null,
+        "imageUrl": null,
+        "isActive": true,
+        "createdAt": "2026-08-23T17:38:48.565Z",
+        "updatedAt": "2026-08-28T16:05:07.063Z",
+        "attributes": [
+          {
+            "id": "cmt63cqyd001turysjcrrquq5",
+            "variantId": "cmt63cqyd001rurysa1gwvf8x",
+            "attributeValueId": "cmt63cqvo0004uryswbqt2i0j",
+            "attributeValue": {
+              "id": "cmt63cqvo0004uryswbqt2i0j",
+              "attributeId": "cmt63cqvh0001urysouhp5hja",
+              "name": "Negro",
+              "slug": "negro",
+              "abbreviation": null,
+              "hexCode": "#000000",
+              "imageUrl": null,
+              "sortOrder": 1,
+              "isActive": true,
+              "createdAt": "2026-08-23T17:38:48.468Z",
+              "updatedAt": "2026-08-28T16:05:06.872Z",
+              "attribute": {
+                "id": "cmt63cqvh0001urysouhp5hja",
+                "name": "Color",
+                "slug": "color",
+                "sortOrder": 1,
+                "isActive": true,
+                "createdAt": "2026-08-23T17:38:48.461Z",
+                "updatedAt": "2026-08-28T16:05:06.860Z"
+              }
+            }
+          },
+          {
+            "id": "cmt63cqyd001uurys3pmhsewj",
+            "variantId": "cmt63cqyd001rurysa1gwvf8x",
+            "attributeValueId": "cmt63cqwc000iurysdux30755",
+            "attributeValue": {
+              "id": "cmt63cqwc000iurysdux30755",
+              "attributeId": "cmt63cqvk0002urys9ka0cfun",
+              "name": "Mediana",
+              "slug": "m",
+              "abbreviation": "M",
+              "hexCode": null,
+              "imageUrl": null,
+              "sortOrder": 3,
+              "isActive": true,
+              "createdAt": "2026-08-23T17:38:48.493Z",
+              "updatedAt": "2026-08-28T16:05:06.911Z",
+              "attribute": {
+                "id": "cmt63cqvk0002urys9ka0cfun",
+                "name": "Talla",
+                "slug": "talla",
+                "sortOrder": 2,
+                "isActive": true,
+                "createdAt": "2026-08-23T17:38:48.465Z",
+                "updatedAt": "2026-08-28T16:05:06.866Z"
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "cmt63cqyh001wurysxi6ohi6z",
+        "productId": "cmt63cqy3001gurysj9ksw32o",
+        "sku": "PLAYERA-NEG-L",
+        "priceCents": null,
+        "priceDeltaCents": 0,
+        "stock": 0,
+        "minStock": 2,
+        "weightGrams": null,
+        "imageUrl": null,
+        "isActive": true,
+        "createdAt": "2026-08-23T17:38:48.569Z",
+        "updatedAt": "2026-08-28T16:05:07.069Z",
+        "attributes": [
+          {
+            "id": "cmt63cqyh001yurysqwacr254",
+            "variantId": "cmt63cqyh001wurysxi6ohi6z",
+            "attributeValueId": "cmt63cqvo0004uryswbqt2i0j",
+            "attributeValue": {
+              "id": "cmt63cqvo0004uryswbqt2i0j",
+              "attributeId": "cmt63cqvh0001urysouhp5hja",
+              "name": "Negro",
+              "slug": "negro",
+              "abbreviation": null,
+              "hexCode": "#000000",
+              "imageUrl": null,
+              "sortOrder": 1,
+              "isActive": true,
+              "createdAt": "2026-08-23T17:38:48.468Z",
+              "updatedAt": "2026-08-28T16:05:06.872Z",
+              "attribute": {
+                "id": "cmt63cqvh0001urysouhp5hja",
+                "name": "Color",
+                "slug": "color",
+                "sortOrder": 1,
+                "isActive": true,
+                "createdAt": "2026-08-23T17:38:48.461Z",
+                "updatedAt": "2026-08-28T16:05:06.860Z"
+              }
+            }
+          },
+          {
+            "id": "cmt63cqyh001zurysv2ymc769",
+            "variantId": "cmt63cqyh001wurysxi6ohi6z",
+            "attributeValueId": "cmt63cqwf000kurysl5jtgy2j",
+            "attributeValue": {
+              "id": "cmt63cqwf000kurysl5jtgy2j",
+              "attributeId": "cmt63cqvk0002urys9ka0cfun",
+              "name": "Grande",
+              "slug": "l",
+              "abbreviation": "L",
+              "hexCode": null,
+              "imageUrl": null,
+              "sortOrder": 4,
+              "isActive": true,
+              "createdAt": "2026-08-23T17:38:48.496Z",
+              "updatedAt": "2026-08-28T16:05:06.916Z",
+              "attribute": {
+                "id": "cmt63cqvk0002urys9ka0cfun",
+                "name": "Talla",
+                "slug": "talla",
+                "sortOrder": 2,
+                "isActive": true,
+                "createdAt": "2026-08-23T17:38:48.465Z",
+                "updatedAt": "2026-08-28T16:05:06.866Z"
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "cmt63cqyk0021uryssgteffee",
+        "productId": "cmt63cqy3001gurysj9ksw32o",
+        "sku": "PLAYERA-BLA-S",
+        "priceCents": null,
+        "priceDeltaCents": 0,
+        "stock": 3,
+        "minStock": 2,
+        "weightGrams": null,
+        "imageUrl": null,
+        "isActive": true,
+        "createdAt": "2026-08-23T17:38:48.573Z",
+        "updatedAt": "2026-08-28T16:05:07.075Z",
+        "attributes": [
+          {
+            "id": "cmt63cqyk0023urysbsjeegwv",
+            "variantId": "cmt63cqyk0021uryssgteffee",
+            "attributeValueId": "cmt63cqvr0006urys579quqfp",
+            "attributeValue": {
+              "id": "cmt63cqvr0006urys579quqfp",
+              "attributeId": "cmt63cqvh0001urysouhp5hja",
+              "name": "Blanco",
+              "slug": "blanco",
+              "abbreviation": null,
+              "hexCode": "#FFFFFF",
+              "imageUrl": null,
+              "sortOrder": 2,
+              "isActive": true,
+              "createdAt": "2026-08-23T17:38:48.471Z",
+              "updatedAt": "2026-08-28T16:05:06.877Z",
+              "attribute": {
+                "id": "cmt63cqvh0001urysouhp5hja",
+                "name": "Color",
+                "slug": "color",
+                "sortOrder": 1,
+                "isActive": true,
+                "createdAt": "2026-08-23T17:38:48.461Z",
+                "updatedAt": "2026-08-28T16:05:06.860Z"
+              }
+            }
+          },
+          {
+            "id": "cmt63cqyk0024uryst11thrwb",
+            "variantId": "cmt63cqyk0021uryssgteffee",
+            "attributeValueId": "cmt63cqw9000guryshjdl22m8",
+            "attributeValue": {
+              "id": "cmt63cqw9000guryshjdl22m8",
+              "attributeId": "cmt63cqvk0002urys9ka0cfun",
+              "name": "Chica",
+              "slug": "s",
+              "abbreviation": "S",
+              "hexCode": null,
+              "imageUrl": null,
+              "sortOrder": 2,
+              "isActive": true,
+              "createdAt": "2026-08-23T17:38:48.489Z",
+              "updatedAt": "2026-08-28T16:05:06.907Z",
+              "attribute": {
+                "id": "cmt63cqvk0002urys9ka0cfun",
+                "name": "Talla",
+                "slug": "talla",
+                "sortOrder": 2,
+                "isActive": true,
+                "createdAt": "2026-08-23T17:38:48.465Z",
+                "updatedAt": "2026-08-28T16:05:06.866Z"
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "cmt63cqyo0026urysn5sqrv9o",
+        "productId": "cmt63cqy3001gurysj9ksw32o",
+        "sku": "PLAYERA-BLA-M",
+        "priceCents": null,
+        "priceDeltaCents": 0,
+        "stock": 8,
+        "minStock": 2,
+        "weightGrams": null,
+        "imageUrl": null,
+        "isActive": true,
+        "createdAt": "2026-08-23T17:38:48.577Z",
+        "updatedAt": "2026-08-28T16:05:07.082Z",
+        "attributes": [
+          {
+            "id": "cmt63cqyo0028urysna7yslmx",
+            "variantId": "cmt63cqyo0026urysn5sqrv9o",
+            "attributeValueId": "cmt63cqvr0006urys579quqfp",
+            "attributeValue": {
+              "id": "cmt63cqvr0006urys579quqfp",
+              "attributeId": "cmt63cqvh0001urysouhp5hja",
+              "name": "Blanco",
+              "slug": "blanco",
+              "abbreviation": null,
+              "hexCode": "#FFFFFF",
+              "imageUrl": null,
+              "sortOrder": 2,
+              "isActive": true,
+              "createdAt": "2026-08-23T17:38:48.471Z",
+              "updatedAt": "2026-08-28T16:05:06.877Z",
+              "attribute": {
+                "id": "cmt63cqvh0001urysouhp5hja",
+                "name": "Color",
+                "slug": "color",
+                "sortOrder": 1,
+                "isActive": true,
+                "createdAt": "2026-08-23T17:38:48.461Z",
+                "updatedAt": "2026-08-28T16:05:06.860Z"
+              }
+            }
+          },
+          {
+            "id": "cmt63cqyo0029urysllde907l",
+            "variantId": "cmt63cqyo0026urysn5sqrv9o",
+            "attributeValueId": "cmt63cqwc000iurysdux30755",
+            "attributeValue": {
+              "id": "cmt63cqwc000iurysdux30755",
+              "attributeId": "cmt63cqvk0002urys9ka0cfun",
+              "name": "Mediana",
+              "slug": "m",
+              "abbreviation": "M",
+              "hexCode": null,
+              "imageUrl": null,
+              "sortOrder": 3,
+              "isActive": true,
+              "createdAt": "2026-08-23T17:38:48.493Z",
+              "updatedAt": "2026-08-28T16:05:06.911Z",
+              "attribute": {
+                "id": "cmt63cqvk0002urys9ka0cfun",
+                "name": "Talla",
+                "slug": "talla",
+                "sortOrder": 2,
+                "isActive": true,
+                "createdAt": "2026-08-23T17:38:48.465Z",
+                "updatedAt": "2026-08-28T16:05:06.866Z"
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "cmt63cqys002burysk1uydtfn",
+        "productId": "cmt63cqy3001gurysj9ksw32o",
+        "sku": "PLAYERA-BLA-L",
+        "priceCents": null,
+        "priceDeltaCents": 0,
+        "stock": 4,
+        "minStock": 2,
+        "weightGrams": null,
+        "imageUrl": null,
+        "isActive": true,
+        "createdAt": "2026-08-23T17:38:48.581Z",
+        "updatedAt": "2026-08-28T16:05:07.089Z",
+        "attributes": [
+          {
+            "id": "cmt63cqys002durysa5z6fj1a",
+            "variantId": "cmt63cqys002burysk1uydtfn",
+            "attributeValueId": "cmt63cqvr0006urys579quqfp",
+            "attributeValue": {
+              "id": "cmt63cqvr0006urys579quqfp",
+              "attributeId": "cmt63cqvh0001urysouhp5hja",
+              "name": "Blanco",
+              "slug": "blanco",
+              "abbreviation": null,
+              "hexCode": "#FFFFFF",
+              "imageUrl": null,
+              "sortOrder": 2,
+              "isActive": true,
+              "createdAt": "2026-08-23T17:38:48.471Z",
+              "updatedAt": "2026-08-28T16:05:06.877Z",
+              "attribute": {
+                "id": "cmt63cqvh0001urysouhp5hja",
+                "name": "Color",
+                "slug": "color",
+                "sortOrder": 1,
+                "isActive": true,
+                "createdAt": "2026-08-23T17:38:48.461Z",
+                "updatedAt": "2026-08-28T16:05:06.860Z"
+              }
+            }
+          },
+          {
+            "id": "cmt63cqys002euryst6emqnlb",
+            "variantId": "cmt63cqys002burysk1uydtfn",
+            "attributeValueId": "cmt63cqwf000kurysl5jtgy2j",
+            "attributeValue": {
+              "id": "cmt63cqwf000kurysl5jtgy2j",
+              "attributeId": "cmt63cqvk0002urys9ka0cfun",
+              "name": "Grande",
+              "slug": "l",
+              "abbreviation": "L",
+              "hexCode": null,
+              "imageUrl": null,
+              "sortOrder": 4,
+              "isActive": true,
+              "createdAt": "2026-08-23T17:38:48.496Z",
+              "updatedAt": "2026-08-28T16:05:06.916Z",
+              "attribute": {
+                "id": "cmt63cqvk0002urys9ka0cfun",
+                "name": "Talla",
+                "slug": "talla",
+                "sortOrder": 2,
+                "isActive": true,
+                "createdAt": "2026-08-23T17:38:48.465Z",
+                "updatedAt": "2026-08-28T16:05:06.866Z"
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "cmt63cqyw002gurysgb4mgumq",
+        "productId": "cmt63cqy3001gurysj9ksw32o",
+        "sku": "PLAYERA-ROJ-S",
+        "priceCents": null,
+        "priceDeltaCents": 0,
+        "stock": 2,
+        "minStock": 2,
+        "weightGrams": null,
+        "imageUrl": null,
+        "isActive": true,
+        "createdAt": "2026-08-23T17:38:48.584Z",
+        "updatedAt": "2026-08-28T16:05:07.097Z",
+        "attributes": [
+          {
+            "id": "cmt63cqyw002iurystavw33wr",
+            "variantId": "cmt63cqyw002gurysgb4mgumq",
+            "attributeValueId": "cmt63cqvv0008uryspytmbwqz",
+            "attributeValue": {
+              "id": "cmt63cqvv0008uryspytmbwqz",
+              "attributeId": "cmt63cqvh0001urysouhp5hja",
+              "name": "Rojo",
+              "slug": "rojo",
+              "abbreviation": null,
+              "hexCode": "#DC2626",
+              "imageUrl": null,
+              "sortOrder": 3,
+              "isActive": true,
+              "createdAt": "2026-08-23T17:38:48.475Z",
+              "updatedAt": "2026-08-28T16:05:06.882Z",
+              "attribute": {
+                "id": "cmt63cqvh0001urysouhp5hja",
+                "name": "Color",
+                "slug": "color",
+                "sortOrder": 1,
+                "isActive": true,
+                "createdAt": "2026-08-23T17:38:48.461Z",
+                "updatedAt": "2026-08-28T16:05:06.860Z"
+              }
+            }
+          },
+          {
+            "id": "cmt63cqyw002jurysv69ukfkj",
+            "variantId": "cmt63cqyw002gurysgb4mgumq",
+            "attributeValueId": "cmt63cqw9000guryshjdl22m8",
+            "attributeValue": {
+              "id": "cmt63cqw9000guryshjdl22m8",
+              "attributeId": "cmt63cqvk0002urys9ka0cfun",
+              "name": "Chica",
+              "slug": "s",
+              "abbreviation": "S",
+              "hexCode": null,
+              "imageUrl": null,
+              "sortOrder": 2,
+              "isActive": true,
+              "createdAt": "2026-08-23T17:38:48.489Z",
+              "updatedAt": "2026-08-28T16:05:06.907Z",
+              "attribute": {
+                "id": "cmt63cqvk0002urys9ka0cfun",
+                "name": "Talla",
+                "slug": "talla",
+                "sortOrder": 2,
+                "isActive": true,
+                "createdAt": "2026-08-23T17:38:48.465Z",
+                "updatedAt": "2026-08-28T16:05:06.866Z"
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "cmt63cqz0002lurys8xpsbj6i",
+        "productId": "cmt63cqy3001gurysj9ksw32o",
+        "sku": "PLAYERA-ROJ-M",
+        "priceCents": null,
+        "priceDeltaCents": 0,
+        "stock": 2,
+        "minStock": 2,
+        "weightGrams": null,
+        "imageUrl": null,
+        "isActive": true,
+        "createdAt": "2026-08-23T17:38:48.588Z",
+        "updatedAt": "2026-08-28T16:05:07.103Z",
+        "attributes": [
+          {
+            "id": "cmt63cqz0002nurys7fkslcuk",
+            "variantId": "cmt63cqz0002lurys8xpsbj6i",
+            "attributeValueId": "cmt63cqvv0008uryspytmbwqz",
+            "attributeValue": {
+              "id": "cmt63cqvv0008uryspytmbwqz",
+              "attributeId": "cmt63cqvh0001urysouhp5hja",
+              "name": "Rojo",
+              "slug": "rojo",
+              "abbreviation": null,
+              "hexCode": "#DC2626",
+              "imageUrl": null,
+              "sortOrder": 3,
+              "isActive": true,
+              "createdAt": "2026-08-23T17:38:48.475Z",
+              "updatedAt": "2026-08-28T16:05:06.882Z",
+              "attribute": {
+                "id": "cmt63cqvh0001urysouhp5hja",
+                "name": "Color",
+                "slug": "color",
+                "sortOrder": 1,
+                "isActive": true,
+                "createdAt": "2026-08-23T17:38:48.461Z",
+                "updatedAt": "2026-08-28T16:05:06.860Z"
+              }
+            }
+          },
+          {
+            "id": "cmt63cqz0002ourystjzrymx0",
+            "variantId": "cmt63cqz0002lurys8xpsbj6i",
+            "attributeValueId": "cmt63cqwc000iurysdux30755",
+            "attributeValue": {
+              "id": "cmt63cqwc000iurysdux30755",
+              "attributeId": "cmt63cqvk0002urys9ka0cfun",
+              "name": "Mediana",
+              "slug": "m",
+              "abbreviation": "M",
+              "hexCode": null,
+              "imageUrl": null,
+              "sortOrder": 3,
+              "isActive": true,
+              "createdAt": "2026-08-23T17:38:48.493Z",
+              "updatedAt": "2026-08-28T16:05:06.911Z",
+              "attribute": {
+                "id": "cmt63cqvk0002urys9ka0cfun",
+                "name": "Talla",
+                "slug": "talla",
+                "sortOrder": 2,
+                "isActive": true,
+                "createdAt": "2026-08-23T17:38:48.465Z",
+                "updatedAt": "2026-08-28T16:05:06.866Z"
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "cmt63cqz4002qurysegd25own",
+        "productId": "cmt63cqy3001gurysj9ksw32o",
+        "sku": "PLAYERA-ROJ-L",
+        "priceCents": null,
+        "priceDeltaCents": 0,
+        "stock": 1,
+        "minStock": 2,
+        "weightGrams": null,
+        "imageUrl": null,
+        "isActive": true,
+        "createdAt": "2026-08-23T17:38:48.592Z",
+        "updatedAt": "2026-08-28T16:05:07.112Z",
+        "attributes": [
+          {
+            "id": "cmt63cqz4002suryswwi56pea",
+            "variantId": "cmt63cqz4002qurysegd25own",
+            "attributeValueId": "cmt63cqvv0008uryspytmbwqz",
+            "attributeValue": {
+              "id": "cmt63cqvv0008uryspytmbwqz",
+              "attributeId": "cmt63cqvh0001urysouhp5hja",
+              "name": "Rojo",
+              "slug": "rojo",
+              "abbreviation": null,
+              "hexCode": "#DC2626",
+              "imageUrl": null,
+              "sortOrder": 3,
+              "isActive": true,
+              "createdAt": "2026-08-23T17:38:48.475Z",
+              "updatedAt": "2026-08-28T16:05:06.882Z",
+              "attribute": {
+                "id": "cmt63cqvh0001urysouhp5hja",
+                "name": "Color",
+                "slug": "color",
+                "sortOrder": 1,
+                "isActive": true,
+                "createdAt": "2026-08-23T17:38:48.461Z",
+                "updatedAt": "2026-08-28T16:05:06.860Z"
+              }
+            }
+          },
+          {
+            "id": "cmt63cqz4002turysu52is4kg",
+            "variantId": "cmt63cqz4002qurysegd25own",
+            "attributeValueId": "cmt63cqwf000kurysl5jtgy2j",
+            "attributeValue": {
+              "id": "cmt63cqwf000kurysl5jtgy2j",
+              "attributeId": "cmt63cqvk0002urys9ka0cfun",
+              "name": "Grande",
+              "slug": "l",
+              "abbreviation": "L",
+              "hexCode": null,
+              "imageUrl": null,
+              "sortOrder": 4,
+              "isActive": true,
+              "createdAt": "2026-08-23T17:38:48.496Z",
+              "updatedAt": "2026-08-28T16:05:06.916Z",
+              "attribute": {
+                "id": "cmt63cqvk0002urys9ka0cfun",
+                "name": "Talla",
+                "slug": "talla",
+                "sortOrder": 2,
+                "isActive": true,
+                "createdAt": "2026-08-23T17:38:48.465Z",
+                "updatedAt": "2026-08-28T16:05:06.866Z"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "displayPriceCents": 35000
+  },
+  {
+    "id": "cmt63cr1m005purysuzzt9fop",
+    "categoryId": "cmt63cqwp000ourys6649tcpo",
+    "name": "Jean tapered",
+    "slug": "jean-tapered",
+    "shortDescription": "Jean tapered de tiro medio con lavado contemporáneo.",
+    "description": "Jean tapered. Elige color y talla para ver disponibilidad y precio.",
+    "basePriceCents": 110000,
+    "salePriceCents": 92000,
+    "costCents": null,
+    "sku": null,
+    "brand": null,
+    "status": "PUBLISHED",
+    "isFeatured": true,
+    "isNew": true,
+    "hasVariants": true,
+    "trackInventory": true,
+    "stock": 0,
+    "minStock": 2,
+    "sortOrder": 3,
+    "deletedAt": null,
+    "createdAt": "2026-08-23T17:38:48.682Z",
+    "updatedAt": "2026-08-28T16:05:07.136Z",
+    "category": {
+      "id": "cmt63cqwp000ourys6649tcpo",
+      "name": "Pantalones",
+      "slug": "pantalones",
+      "description": "Denim",
+      "imageUrl": "/images/categories/pantalones.svg",
+      "sortOrder": 2,
+      "isActive": true,
+      "deletedAt": null,
+      "createdAt": "2026-08-23T17:38:48.506Z",
+      "updatedAt": "2026-08-28T16:05:07.008Z"
+    },
+    "images": [
+      {
+        "id": "cmtd57irk001purik8jn9ow5l",
+        "productId": "cmt63cr1m005purysuzzt9fop",
+        "url": "/images/products/jean.svg",
+        "alt": "Jean tapered",
+        "isPrimary": true,
+        "sortOrder": 0,
+        "createdAt": "2026-08-28T16:05:07.136Z"
+      }
+    ],
+    "extras": [],
+    "attributes": [
+      {
+        "id": "cmtd57irk001rurik86j3y9o7",
+        "productId": "cmt63cr1m005purysuzzt9fop",
+        "attributeId": "cmt63cqvh0001urysouhp5hja",
+        "attribute": {
+          "id": "cmt63cqvh0001urysouhp5hja",
+          "name": "Color",
+          "slug": "color",
+          "sortOrder": 1,
+          "isActive": true,
+          "createdAt": "2026-08-23T17:38:48.461Z",
+          "updatedAt": "2026-08-28T16:05:06.860Z",
+          "values": [
+            {
+              "id": "cmt63cqvo0004uryswbqt2i0j",
+              "attributeId": "cmt63cqvh0001urysouhp5hja",
+              "name": "Negro",
+              "slug": "negro",
+              "abbreviation": null,
+              "hexCode": "#000000",
+              "imageUrl": null,
+              "sortOrder": 1,
+              "isActive": true,
+              "createdAt": "2026-08-23T17:38:48.468Z",
+              "updatedAt": "2026-08-28T16:05:06.872Z"
+            },
+            {
+              "id": "cmt63cqvr0006urys579quqfp",
+              "attributeId": "cmt63cqvh0001urysouhp5hja",
+              "name": "Blanco",
+              "slug": "blanco",
+              "abbreviation": null,
+              "hexCode": "#FFFFFF",
+              "imageUrl": null,
+              "sortOrder": 2,
+              "isActive": true,
+              "createdAt": "2026-08-23T17:38:48.471Z",
+              "updatedAt": "2026-08-28T16:05:06.877Z"
+            },
+            {
+              "id": "cmt63cqvv0008uryspytmbwqz",
+              "attributeId": "cmt63cqvh0001urysouhp5hja",
+              "name": "Rojo",
+              "slug": "rojo",
+              "abbreviation": null,
+              "hexCode": "#DC2626",
+              "imageUrl": null,
+              "sortOrder": 3,
+              "isActive": true,
+              "createdAt": "2026-08-23T17:38:48.475Z",
+              "updatedAt": "2026-08-28T16:05:06.882Z"
+            },
+            {
+              "id": "cmt63cqvy000aurysy33q911h",
+              "attributeId": "cmt63cqvh0001urysouhp5hja",
+              "name": "Azul",
+              "slug": "azul",
+              "abbreviation": null,
+              "hexCode": "#2563EB",
+              "imageUrl": null,
+              "sortOrder": 4,
+              "isActive": true,
+              "createdAt": "2026-08-23T17:38:48.479Z",
+              "updatedAt": "2026-08-28T16:05:06.887Z"
+            },
+            {
+              "id": "cmt63cqw2000curystyu0oeyr",
+              "attributeId": "cmt63cqvh0001urysouhp5hja",
+              "name": "Beige",
+              "slug": "beige",
+              "abbreviation": null,
+              "hexCode": "#D2B48C",
+              "imageUrl": null,
+              "sortOrder": 5,
+              "isActive": true,
+              "createdAt": "2026-08-23T17:38:48.482Z",
+              "updatedAt": "2026-08-28T16:05:06.892Z"
+            }
+          ]
+        }
+      },
+      {
+        "id": "cmtd57irk001surikm19v2kcw",
+        "productId": "cmt63cr1m005purysuzzt9fop",
+        "attributeId": "cmt63cqvk0002urys9ka0cfun",
+        "attribute": {
+          "id": "cmt63cqvk0002urys9ka0cfun",
+          "name": "Talla",
+          "slug": "talla",
+          "sortOrder": 2,
+          "isActive": true,
+          "createdAt": "2026-08-23T17:38:48.465Z",
+          "updatedAt": "2026-08-28T16:05:06.866Z",
+          "values": [
+            {
+              "id": "cmt63cqw5000eurysyr62s2f3",
+              "attributeId": "cmt63cqvk0002urys9ka0cfun",
+              "name": "Extra chica",
+              "slug": "xs",
+              "abbreviation": "XS",
+              "hexCode": null,
+              "imageUrl": null,
+              "sortOrder": 1,
+              "isActive": true,
+              "createdAt": "2026-08-23T17:38:48.486Z",
+              "updatedAt": "2026-08-28T16:05:06.902Z"
+            },
+            {
+              "id": "cmt63cqw9000guryshjdl22m8",
+              "attributeId": "cmt63cqvk0002urys9ka0cfun",
+              "name": "Chica",
+              "slug": "s",
+              "abbreviation": "S",
+              "hexCode": null,
+              "imageUrl": null,
+              "sortOrder": 2,
+              "isActive": true,
+              "createdAt": "2026-08-23T17:38:48.489Z",
+              "updatedAt": "2026-08-28T16:05:06.907Z"
+            },
+            {
+              "id": "cmt63cqwc000iurysdux30755",
+              "attributeId": "cmt63cqvk0002urys9ka0cfun",
+              "name": "Mediana",
+              "slug": "m",
+              "abbreviation": "M",
+              "hexCode": null,
+              "imageUrl": null,
+              "sortOrder": 3,
+              "isActive": true,
+              "createdAt": "2026-08-23T17:38:48.493Z",
+              "updatedAt": "2026-08-28T16:05:06.911Z"
+            },
+            {
+              "id": "cmt63cqwf000kurysl5jtgy2j",
+              "attributeId": "cmt63cqvk0002urys9ka0cfun",
+              "name": "Grande",
+              "slug": "l",
+              "abbreviation": "L",
+              "hexCode": null,
+              "imageUrl": null,
+              "sortOrder": 4,
+              "isActive": true,
+              "createdAt": "2026-08-23T17:38:48.496Z",
+              "updatedAt": "2026-08-28T16:05:06.916Z"
+            },
+            {
+              "id": "cmt63cqwi000murysd3823qyi",
+              "attributeId": "cmt63cqvk0002urys9ka0cfun",
+              "name": "Extra grande",
+              "slug": "xl",
+              "abbreviation": "XL",
+              "hexCode": null,
+              "imageUrl": null,
+              "sortOrder": 5,
+              "isActive": true,
+              "createdAt": "2026-08-23T17:38:48.499Z",
+              "updatedAt": "2026-08-28T16:05:06.921Z"
+            },
+            {
+              "id": "cmtc5renj000ourg8xv0ivs0o",
+              "attributeId": "cmt63cqvk0002urys9ka0cfun",
+              "name": "2XL",
+              "slug": "xxl",
+              "abbreviation": "XXL",
+              "hexCode": null,
+              "imageUrl": null,
+              "sortOrder": 6,
+              "isActive": true,
+              "createdAt": "2026-08-27T23:32:48.751Z",
+              "updatedAt": "2026-08-28T16:05:06.926Z"
+            },
+            {
+              "id": "cmtc5renn000qurg8il8fxkcq",
+              "attributeId": "cmt63cqvk0002urys9ka0cfun",
+              "name": "3XL",
+              "slug": "3xl",
+              "abbreviation": "3XL",
+              "hexCode": null,
+              "imageUrl": null,
+              "sortOrder": 7,
+              "isActive": true,
+              "createdAt": "2026-08-27T23:32:48.756Z",
+              "updatedAt": "2026-08-28T16:05:06.932Z"
+            },
+            {
+              "id": "cmtc5rens000surg87jymvcxq",
+              "attributeId": "cmt63cqvk0002urys9ka0cfun",
+              "name": "28",
+              "slug": "28",
+              "abbreviation": "28",
+              "hexCode": null,
+              "imageUrl": null,
+              "sortOrder": 20,
+              "isActive": true,
+              "createdAt": "2026-08-27T23:32:48.760Z",
+              "updatedAt": "2026-08-28T16:05:06.936Z"
+            },
+            {
+              "id": "cmtc5renv000uurg8pawz4qwo",
+              "attributeId": "cmt63cqvk0002urys9ka0cfun",
+              "name": "30",
+              "slug": "30",
+              "abbreviation": "30",
+              "hexCode": null,
+              "imageUrl": null,
+              "sortOrder": 21,
+              "isActive": true,
+              "createdAt": "2026-08-27T23:32:48.764Z",
+              "updatedAt": "2026-08-28T16:05:06.941Z"
+            },
+            {
+              "id": "cmtc5reo0000wurg88md1xgzt",
+              "attributeId": "cmt63cqvk0002urys9ka0cfun",
+              "name": "32",
+              "slug": "32",
+              "abbreviation": "32",
+              "hexCode": null,
+              "imageUrl": null,
+              "sortOrder": 22,
+              "isActive": true,
+              "createdAt": "2026-08-27T23:32:48.768Z",
+              "updatedAt": "2026-08-28T16:05:06.946Z"
+            },
+            {
+              "id": "cmtc5reo3000yurg852pi59rx",
+              "attributeId": "cmt63cqvk0002urys9ka0cfun",
+              "name": "34",
+              "slug": "34",
+              "abbreviation": "34",
+              "hexCode": null,
+              "imageUrl": null,
+              "sortOrder": 23,
+              "isActive": true,
+              "createdAt": "2026-08-27T23:32:48.772Z",
+              "updatedAt": "2026-08-28T16:05:06.951Z"
+            },
+            {
+              "id": "cmtc5reo70010urg8bayttsri",
+              "attributeId": "cmt63cqvk0002urys9ka0cfun",
+              "name": "36",
+              "slug": "36",
+              "abbreviation": "36",
+              "hexCode": null,
+              "imageUrl": null,
+              "sortOrder": 24,
+              "isActive": true,
+              "createdAt": "2026-08-27T23:32:48.775Z",
+              "updatedAt": "2026-08-28T16:05:06.956Z"
+            },
+            {
+              "id": "cmtc5reob0012urg843w4dsbn",
+              "attributeId": "cmt63cqvk0002urys9ka0cfun",
+              "name": "38",
+              "slug": "38",
+              "abbreviation": "38",
+              "hexCode": null,
+              "imageUrl": null,
+              "sortOrder": 25,
+              "isActive": true,
+              "createdAt": "2026-08-27T23:32:48.779Z",
+              "updatedAt": "2026-08-28T16:05:06.961Z"
+            },
+            {
+              "id": "cmtc5reoe0014urg8fq3xowba",
+              "attributeId": "cmt63cqvk0002urys9ka0cfun",
+              "name": "4",
+              "slug": "4",
+              "abbreviation": "4",
+              "hexCode": null,
+              "imageUrl": null,
+              "sortOrder": 30,
+              "isActive": true,
+              "createdAt": "2026-08-27T23:32:48.782Z",
+              "updatedAt": "2026-08-28T16:05:06.966Z"
+            },
+            {
+              "id": "cmtc5reoh0016urg819hge78f",
+              "attributeId": "cmt63cqvk0002urys9ka0cfun",
+              "name": "6",
+              "slug": "6",
+              "abbreviation": "6",
+              "hexCode": null,
+              "imageUrl": null,
+              "sortOrder": 31,
+              "isActive": true,
+              "createdAt": "2026-08-27T23:32:48.786Z",
+              "updatedAt": "2026-08-28T16:05:06.970Z"
+            },
+            {
+              "id": "cmtc5reol0018urg8cuvrf7r2",
+              "attributeId": "cmt63cqvk0002urys9ka0cfun",
+              "name": "8",
+              "slug": "8",
+              "abbreviation": "8",
+              "hexCode": null,
+              "imageUrl": null,
+              "sortOrder": 32,
+              "isActive": true,
+              "createdAt": "2026-08-27T23:32:48.789Z",
+              "updatedAt": "2026-08-28T16:05:06.975Z"
+            },
+            {
+              "id": "cmtc5reop001aurg8u1l7lk8t",
+              "attributeId": "cmt63cqvk0002urys9ka0cfun",
+              "name": "10",
+              "slug": "10",
+              "abbreviation": "10",
+              "hexCode": null,
+              "imageUrl": null,
+              "sortOrder": 33,
+              "isActive": true,
+              "createdAt": "2026-08-27T23:32:48.794Z",
+              "updatedAt": "2026-08-28T16:05:06.981Z"
+            },
+            {
+              "id": "cmtc5reot001curg8j3t5jv6d",
+              "attributeId": "cmt63cqvk0002urys9ka0cfun",
+              "name": "12",
+              "slug": "12",
+              "abbreviation": "12",
+              "hexCode": null,
+              "imageUrl": null,
+              "sortOrder": 34,
+              "isActive": true,
+              "createdAt": "2026-08-27T23:32:48.797Z",
+              "updatedAt": "2026-08-28T16:05:06.986Z"
+            },
+            {
+              "id": "cmtc5reox001eurg8ttoh7poe",
+              "attributeId": "cmt63cqvk0002urys9ka0cfun",
+              "name": "14",
+              "slug": "14",
+              "abbreviation": "14",
+              "hexCode": null,
+              "imageUrl": null,
+              "sortOrder": 35,
+              "isActive": true,
+              "createdAt": "2026-08-27T23:32:48.801Z",
+              "updatedAt": "2026-08-28T16:05:06.991Z"
+            },
+            {
+              "id": "cmtc5rep1001gurg8eg83bwoe",
+              "attributeId": "cmt63cqvk0002urys9ka0cfun",
+              "name": "Talla única",
+              "slug": "unica",
+              "abbreviation": "U",
+              "hexCode": null,
+              "imageUrl": null,
+              "sortOrder": 40,
+              "isActive": true,
+              "createdAt": "2026-08-27T23:32:48.805Z",
+              "updatedAt": "2026-08-28T16:05:06.997Z"
+            }
+          ]
+        }
+      }
+    ],
+    "variants": [
+      {
+        "id": "cmt63cr1x005vuryskj1kv5nv",
+        "productId": "cmt63cr1m005purysuzzt9fop",
+        "sku": "JEAN-NEG-S",
+        "priceCents": null,
+        "priceDeltaCents": 0,
+        "stock": 2,
+        "minStock": 2,
+        "weightGrams": null,
+        "imageUrl": null,
+        "isActive": true,
+        "createdAt": "2026-08-23T17:38:48.694Z",
+        "updatedAt": "2026-08-28T16:05:07.147Z",
+        "attributes": [
+          {
+            "id": "cmt63cr1x005xurys8bm8g9o9",
+            "variantId": "cmt63cr1x005vuryskj1kv5nv",
+            "attributeValueId": "cmt63cqvo0004uryswbqt2i0j",
+            "attributeValue": {
+              "id": "cmt63cqvo0004uryswbqt2i0j",
+              "attributeId": "cmt63cqvh0001urysouhp5hja",
+              "name": "Negro",
+              "slug": "negro",
+              "abbreviation": null,
+              "hexCode": "#000000",
+              "imageUrl": null,
+              "sortOrder": 1,
+              "isActive": true,
+              "createdAt": "2026-08-23T17:38:48.468Z",
+              "updatedAt": "2026-08-28T16:05:06.872Z",
+              "attribute": {
+                "id": "cmt63cqvh0001urysouhp5hja",
+                "name": "Color",
+                "slug": "color",
+                "sortOrder": 1,
+                "isActive": true,
+                "createdAt": "2026-08-23T17:38:48.461Z",
+                "updatedAt": "2026-08-28T16:05:06.860Z"
+              }
+            }
+          },
+          {
+            "id": "cmt63cr1x005yurysm189oi3k",
+            "variantId": "cmt63cr1x005vuryskj1kv5nv",
+            "attributeValueId": "cmt63cqw9000guryshjdl22m8",
+            "attributeValue": {
+              "id": "cmt63cqw9000guryshjdl22m8",
+              "attributeId": "cmt63cqvk0002urys9ka0cfun",
+              "name": "Chica",
+              "slug": "s",
+              "abbreviation": "S",
+              "hexCode": null,
+              "imageUrl": null,
+              "sortOrder": 2,
+              "isActive": true,
+              "createdAt": "2026-08-23T17:38:48.489Z",
+              "updatedAt": "2026-08-28T16:05:06.907Z",
+              "attribute": {
+                "id": "cmt63cqvk0002urys9ka0cfun",
+                "name": "Talla",
+                "slug": "talla",
+                "sortOrder": 2,
+                "isActive": true,
+                "createdAt": "2026-08-23T17:38:48.465Z",
+                "updatedAt": "2026-08-28T16:05:06.866Z"
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "cmt63cr230060urys73eqmrn9",
+        "productId": "cmt63cr1m005purysuzzt9fop",
+        "sku": "JEAN-NEG-M",
+        "priceCents": null,
+        "priceDeltaCents": 0,
+        "stock": 4,
+        "minStock": 2,
+        "weightGrams": null,
+        "imageUrl": null,
+        "isActive": true,
+        "createdAt": "2026-08-23T17:38:48.699Z",
+        "updatedAt": "2026-08-28T16:05:07.152Z",
+        "attributes": [
+          {
+            "id": "cmt63cr230062urysw6guynt5",
+            "variantId": "cmt63cr230060urys73eqmrn9",
+            "attributeValueId": "cmt63cqvo0004uryswbqt2i0j",
+            "attributeValue": {
+              "id": "cmt63cqvo0004uryswbqt2i0j",
+              "attributeId": "cmt63cqvh0001urysouhp5hja",
+              "name": "Negro",
+              "slug": "negro",
+              "abbreviation": null,
+              "hexCode": "#000000",
+              "imageUrl": null,
+              "sortOrder": 1,
+              "isActive": true,
+              "createdAt": "2026-08-23T17:38:48.468Z",
+              "updatedAt": "2026-08-28T16:05:06.872Z",
+              "attribute": {
+                "id": "cmt63cqvh0001urysouhp5hja",
+                "name": "Color",
+                "slug": "color",
+                "sortOrder": 1,
+                "isActive": true,
+                "createdAt": "2026-08-23T17:38:48.461Z",
+                "updatedAt": "2026-08-28T16:05:06.860Z"
+              }
+            }
+          },
+          {
+            "id": "cmt63cr230063urysq39r2v8y",
+            "variantId": "cmt63cr230060urys73eqmrn9",
+            "attributeValueId": "cmt63cqwc000iurysdux30755",
+            "attributeValue": {
+              "id": "cmt63cqwc000iurysdux30755",
+              "attributeId": "cmt63cqvk0002urys9ka0cfun",
+              "name": "Mediana",
+              "slug": "m",
+              "abbreviation": "M",
+              "hexCode": null,
+              "imageUrl": null,
+              "sortOrder": 3,
+              "isActive": true,
+              "createdAt": "2026-08-23T17:38:48.493Z",
+              "updatedAt": "2026-08-28T16:05:06.911Z",
+              "attribute": {
+                "id": "cmt63cqvk0002urys9ka0cfun",
+                "name": "Talla",
+                "slug": "talla",
+                "sortOrder": 2,
+                "isActive": true,
+                "createdAt": "2026-08-23T17:38:48.465Z",
+                "updatedAt": "2026-08-28T16:05:06.866Z"
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "cmt63cr290065urysiu8k0gaf",
+        "productId": "cmt63cr1m005purysuzzt9fop",
+        "sku": "JEAN-NEG-L",
+        "priceCents": null,
+        "priceDeltaCents": 0,
+        "stock": 0,
+        "minStock": 2,
+        "weightGrams": null,
+        "imageUrl": null,
+        "isActive": true,
+        "createdAt": "2026-08-23T17:38:48.705Z",
+        "updatedAt": "2026-08-28T16:05:07.159Z",
+        "attributes": [
+          {
+            "id": "cmt63cr290067urysv4812jw7",
+            "variantId": "cmt63cr290065urysiu8k0gaf",
+            "attributeValueId": "cmt63cqvo0004uryswbqt2i0j",
+            "attributeValue": {
+              "id": "cmt63cqvo0004uryswbqt2i0j",
+              "attributeId": "cmt63cqvh0001urysouhp5hja",
+              "name": "Negro",
+              "slug": "negro",
+              "abbreviation": null,
+              "hexCode": "#000000",
+              "imageUrl": null,
+              "sortOrder": 1,
+              "isActive": true,
+              "createdAt": "2026-08-23T17:38:48.468Z",
+              "updatedAt": "2026-08-28T16:05:06.872Z",
+              "attribute": {
+                "id": "cmt63cqvh0001urysouhp5hja",
+                "name": "Color",
+                "slug": "color",
+                "sortOrder": 1,
+                "isActive": true,
+                "createdAt": "2026-08-23T17:38:48.461Z",
+                "updatedAt": "2026-08-28T16:05:06.860Z"
+              }
+            }
+          },
+          {
+            "id": "cmt63cr290068urysg5tgno13",
+            "variantId": "cmt63cr290065urysiu8k0gaf",
+            "attributeValueId": "cmt63cqwf000kurysl5jtgy2j",
+            "attributeValue": {
+              "id": "cmt63cqwf000kurysl5jtgy2j",
+              "attributeId": "cmt63cqvk0002urys9ka0cfun",
+              "name": "Grande",
+              "slug": "l",
+              "abbreviation": "L",
+              "hexCode": null,
+              "imageUrl": null,
+              "sortOrder": 4,
+              "isActive": true,
+              "createdAt": "2026-08-23T17:38:48.496Z",
+              "updatedAt": "2026-08-28T16:05:06.916Z",
+              "attribute": {
+                "id": "cmt63cqvk0002urys9ka0cfun",
+                "name": "Talla",
+                "slug": "talla",
+                "sortOrder": 2,
+                "isActive": true,
+                "createdAt": "2026-08-23T17:38:48.465Z",
+                "updatedAt": "2026-08-28T16:05:06.866Z"
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "cmt63cr2d006aurysg9acfdyd",
+        "productId": "cmt63cr1m005purysuzzt9fop",
+        "sku": "JEAN-NEG-XL",
+        "priceCents": null,
+        "priceDeltaCents": 0,
+        "stock": 1,
+        "minStock": 2,
+        "weightGrams": null,
+        "imageUrl": null,
+        "isActive": true,
+        "createdAt": "2026-08-23T17:38:48.709Z",
+        "updatedAt": "2026-08-28T16:05:07.166Z",
+        "attributes": [
+          {
+            "id": "cmt63cr2d006curys4i0n94ms",
+            "variantId": "cmt63cr2d006aurysg9acfdyd",
+            "attributeValueId": "cmt63cqvo0004uryswbqt2i0j",
+            "attributeValue": {
+              "id": "cmt63cqvo0004uryswbqt2i0j",
+              "attributeId": "cmt63cqvh0001urysouhp5hja",
+              "name": "Negro",
+              "slug": "negro",
+              "abbreviation": null,
+              "hexCode": "#000000",
+              "imageUrl": null,
+              "sortOrder": 1,
+              "isActive": true,
+              "createdAt": "2026-08-23T17:38:48.468Z",
+              "updatedAt": "2026-08-28T16:05:06.872Z",
+              "attribute": {
+                "id": "cmt63cqvh0001urysouhp5hja",
+                "name": "Color",
+                "slug": "color",
+                "sortOrder": 1,
+                "isActive": true,
+                "createdAt": "2026-08-23T17:38:48.461Z",
+                "updatedAt": "2026-08-28T16:05:06.860Z"
+              }
+            }
+          },
+          {
+            "id": "cmt63cr2d006durysix8sn7lk",
+            "variantId": "cmt63cr2d006aurysg9acfdyd",
+            "attributeValueId": "cmt63cqwi000murysd3823qyi",
+            "attributeValue": {
+              "id": "cmt63cqwi000murysd3823qyi",
+              "attributeId": "cmt63cqvk0002urys9ka0cfun",
+              "name": "Extra grande",
+              "slug": "xl",
+              "abbreviation": "XL",
+              "hexCode": null,
+              "imageUrl": null,
+              "sortOrder": 5,
+              "isActive": true,
+              "createdAt": "2026-08-23T17:38:48.499Z",
+              "updatedAt": "2026-08-28T16:05:06.921Z",
+              "attribute": {
+                "id": "cmt63cqvk0002urys9ka0cfun",
+                "name": "Talla",
+                "slug": "talla",
+                "sortOrder": 2,
+                "isActive": true,
+                "createdAt": "2026-08-23T17:38:48.465Z",
+                "updatedAt": "2026-08-28T16:05:06.866Z"
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "cmt63cr2h006furys8zuun21l",
+        "productId": "cmt63cr1m005purysuzzt9fop",
+        "sku": "JEAN-AZU-S",
+        "priceCents": null,
+        "priceDeltaCents": 0,
+        "stock": 2,
+        "minStock": 2,
+        "weightGrams": null,
+        "imageUrl": null,
+        "isActive": true,
+        "createdAt": "2026-08-23T17:38:48.713Z",
+        "updatedAt": "2026-08-28T16:05:07.172Z",
+        "attributes": [
+          {
+            "id": "cmt63cr2h006huryst7g42qc3",
+            "variantId": "cmt63cr2h006furys8zuun21l",
+            "attributeValueId": "cmt63cqvy000aurysy33q911h",
+            "attributeValue": {
+              "id": "cmt63cqvy000aurysy33q911h",
+              "attributeId": "cmt63cqvh0001urysouhp5hja",
+              "name": "Azul",
+              "slug": "azul",
+              "abbreviation": null,
+              "hexCode": "#2563EB",
+              "imageUrl": null,
+              "sortOrder": 4,
+              "isActive": true,
+              "createdAt": "2026-08-23T17:38:48.479Z",
+              "updatedAt": "2026-08-28T16:05:06.887Z",
+              "attribute": {
+                "id": "cmt63cqvh0001urysouhp5hja",
+                "name": "Color",
+                "slug": "color",
+                "sortOrder": 1,
+                "isActive": true,
+                "createdAt": "2026-08-23T17:38:48.461Z",
+                "updatedAt": "2026-08-28T16:05:06.860Z"
+              }
+            }
+          },
+          {
+            "id": "cmt63cr2h006iurys7o3j7d4m",
+            "variantId": "cmt63cr2h006furys8zuun21l",
+            "attributeValueId": "cmt63cqw9000guryshjdl22m8",
+            "attributeValue": {
+              "id": "cmt63cqw9000guryshjdl22m8",
+              "attributeId": "cmt63cqvk0002urys9ka0cfun",
+              "name": "Chica",
+              "slug": "s",
+              "abbreviation": "S",
+              "hexCode": null,
+              "imageUrl": null,
+              "sortOrder": 2,
+              "isActive": true,
+              "createdAt": "2026-08-23T17:38:48.489Z",
+              "updatedAt": "2026-08-28T16:05:06.907Z",
+              "attribute": {
+                "id": "cmt63cqvk0002urys9ka0cfun",
+                "name": "Talla",
+                "slug": "talla",
+                "sortOrder": 2,
+                "isActive": true,
+                "createdAt": "2026-08-23T17:38:48.465Z",
+                "updatedAt": "2026-08-28T16:05:06.866Z"
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "cmt63cr2l006kurys8t4w2i00",
+        "productId": "cmt63cr1m005purysuzzt9fop",
+        "sku": "JEAN-AZU-M",
+        "priceCents": null,
+        "priceDeltaCents": 0,
+        "stock": 5,
+        "minStock": 2,
+        "weightGrams": null,
+        "imageUrl": null,
+        "isActive": true,
+        "createdAt": "2026-08-23T17:38:48.717Z",
+        "updatedAt": "2026-08-28T16:05:07.179Z",
+        "attributes": [
+          {
+            "id": "cmt63cr2l006muryspn53baa7",
+            "variantId": "cmt63cr2l006kurys8t4w2i00",
+            "attributeValueId": "cmt63cqvy000aurysy33q911h",
+            "attributeValue": {
+              "id": "cmt63cqvy000aurysy33q911h",
+              "attributeId": "cmt63cqvh0001urysouhp5hja",
+              "name": "Azul",
+              "slug": "azul",
+              "abbreviation": null,
+              "hexCode": "#2563EB",
+              "imageUrl": null,
+              "sortOrder": 4,
+              "isActive": true,
+              "createdAt": "2026-08-23T17:38:48.479Z",
+              "updatedAt": "2026-08-28T16:05:06.887Z",
+              "attribute": {
+                "id": "cmt63cqvh0001urysouhp5hja",
+                "name": "Color",
+                "slug": "color",
+                "sortOrder": 1,
+                "isActive": true,
+                "createdAt": "2026-08-23T17:38:48.461Z",
+                "updatedAt": "2026-08-28T16:05:06.860Z"
+              }
+            }
+          },
+          {
+            "id": "cmt63cr2l006nurys695hkqzx",
+            "variantId": "cmt63cr2l006kurys8t4w2i00",
+            "attributeValueId": "cmt63cqwc000iurysdux30755",
+            "attributeValue": {
+              "id": "cmt63cqwc000iurysdux30755",
+              "attributeId": "cmt63cqvk0002urys9ka0cfun",
+              "name": "Mediana",
+              "slug": "m",
+              "abbreviation": "M",
+              "hexCode": null,
+              "imageUrl": null,
+              "sortOrder": 3,
+              "isActive": true,
+              "createdAt": "2026-08-23T17:38:48.493Z",
+              "updatedAt": "2026-08-28T16:05:06.911Z",
+              "attribute": {
+                "id": "cmt63cqvk0002urys9ka0cfun",
+                "name": "Talla",
+                "slug": "talla",
+                "sortOrder": 2,
+                "isActive": true,
+                "createdAt": "2026-08-23T17:38:48.465Z",
+                "updatedAt": "2026-08-28T16:05:06.866Z"
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "cmt63cr2p006puryshymvzokv",
+        "productId": "cmt63cr1m005purysuzzt9fop",
+        "sku": "JEAN-AZU-L",
+        "priceCents": null,
+        "priceDeltaCents": 0,
+        "stock": 4,
+        "minStock": 2,
+        "weightGrams": null,
+        "imageUrl": null,
+        "isActive": true,
+        "createdAt": "2026-08-23T17:38:48.721Z",
+        "updatedAt": "2026-08-28T16:05:07.186Z",
+        "attributes": [
+          {
+            "id": "cmt63cr2p006rurys8tg8x5ao",
+            "variantId": "cmt63cr2p006puryshymvzokv",
+            "attributeValueId": "cmt63cqvy000aurysy33q911h",
+            "attributeValue": {
+              "id": "cmt63cqvy000aurysy33q911h",
+              "attributeId": "cmt63cqvh0001urysouhp5hja",
+              "name": "Azul",
+              "slug": "azul",
+              "abbreviation": null,
+              "hexCode": "#2563EB",
+              "imageUrl": null,
+              "sortOrder": 4,
+              "isActive": true,
+              "createdAt": "2026-08-23T17:38:48.479Z",
+              "updatedAt": "2026-08-28T16:05:06.887Z",
+              "attribute": {
+                "id": "cmt63cqvh0001urysouhp5hja",
+                "name": "Color",
+                "slug": "color",
+                "sortOrder": 1,
+                "isActive": true,
+                "createdAt": "2026-08-23T17:38:48.461Z",
+                "updatedAt": "2026-08-28T16:05:06.860Z"
+              }
+            }
+          },
+          {
+            "id": "cmt63cr2p006surysjukcuw0p",
+            "variantId": "cmt63cr2p006puryshymvzokv",
+            "attributeValueId": "cmt63cqwf000kurysl5jtgy2j",
+            "attributeValue": {
+              "id": "cmt63cqwf000kurysl5jtgy2j",
+              "attributeId": "cmt63cqvk0002urys9ka0cfun",
+              "name": "Grande",
+              "slug": "l",
+              "abbreviation": "L",
+              "hexCode": null,
+              "imageUrl": null,
+              "sortOrder": 4,
+              "isActive": true,
+              "createdAt": "2026-08-23T17:38:48.496Z",
+              "updatedAt": "2026-08-28T16:05:06.916Z",
+              "attribute": {
+                "id": "cmt63cqvk0002urys9ka0cfun",
+                "name": "Talla",
+                "slug": "talla",
+                "sortOrder": 2,
+                "isActive": true,
+                "createdAt": "2026-08-23T17:38:48.465Z",
+                "updatedAt": "2026-08-28T16:05:06.866Z"
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "cmt63cr2t006uurysbdb2ldqa",
+        "productId": "cmt63cr1m005purysuzzt9fop",
+        "sku": "JEAN-AZU-XL",
+        "priceCents": null,
+        "priceDeltaCents": 0,
+        "stock": 2,
+        "minStock": 2,
+        "weightGrams": null,
+        "imageUrl": null,
+        "isActive": true,
+        "createdAt": "2026-08-23T17:38:48.725Z",
+        "updatedAt": "2026-08-28T16:05:07.193Z",
+        "attributes": [
+          {
+            "id": "cmt63cr2t006wuryswcra4ylx",
+            "variantId": "cmt63cr2t006uurysbdb2ldqa",
+            "attributeValueId": "cmt63cqvy000aurysy33q911h",
+            "attributeValue": {
+              "id": "cmt63cqvy000aurysy33q911h",
+              "attributeId": "cmt63cqvh0001urysouhp5hja",
+              "name": "Azul",
+              "slug": "azul",
+              "abbreviation": null,
+              "hexCode": "#2563EB",
+              "imageUrl": null,
+              "sortOrder": 4,
+              "isActive": true,
+              "createdAt": "2026-08-23T17:38:48.479Z",
+              "updatedAt": "2026-08-28T16:05:06.887Z",
+              "attribute": {
+                "id": "cmt63cqvh0001urysouhp5hja",
+                "name": "Color",
+                "slug": "color",
+                "sortOrder": 1,
+                "isActive": true,
+                "createdAt": "2026-08-23T17:38:48.461Z",
+                "updatedAt": "2026-08-28T16:05:06.860Z"
+              }
+            }
+          },
+          {
+            "id": "cmt63cr2t006xurysi6lbufst",
+            "variantId": "cmt63cr2t006uurysbdb2ldqa",
+            "attributeValueId": "cmt63cqwi000murysd3823qyi",
+            "attributeValue": {
+              "id": "cmt63cqwi000murysd3823qyi",
+              "attributeId": "cmt63cqvk0002urys9ka0cfun",
+              "name": "Extra grande",
+              "slug": "xl",
+              "abbreviation": "XL",
+              "hexCode": null,
+              "imageUrl": null,
+              "sortOrder": 5,
+              "isActive": true,
+              "createdAt": "2026-08-23T17:38:48.499Z",
+              "updatedAt": "2026-08-28T16:05:06.921Z",
+              "attribute": {
+                "id": "cmt63cqvk0002urys9ka0cfun",
+                "name": "Talla",
+                "slug": "talla",
+                "sortOrder": 2,
+                "isActive": true,
+                "createdAt": "2026-08-23T17:38:48.465Z",
+                "updatedAt": "2026-08-28T16:05:06.866Z"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "displayPriceCents": 92000
+  }
+]

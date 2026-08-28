@@ -6,10 +6,10 @@ import { CustomerForm } from '../components/checkout/CustomerForm'
 import { Button } from '../components/ui/Button'
 import { EmptyState } from '../components/ui/EmptyState'
 import { useSettings } from '../hooks/useSettings'
-import { ApiError, ordersApi } from '../lib/api'
+import { ApiError, canUseApi, ordersApi } from '../lib/api'
 import { saveLastOrder } from '../lib/lastOrder'
 import { formatMoney } from '../lib/money'
-import { mapApiOrderToTicketOrder, toCreateOrderPayload } from '../lib/order'
+import { buildOrder, mapApiOrderToTicketOrder, toCreateOrderPayload } from '../lib/order'
 import { generateTicket } from '../lib/ticket'
 import { emptyCustomer, hasFieldErrors, validateCustomer } from '../lib/validation'
 import type { FieldErrors } from '../lib/validation'
@@ -59,8 +59,13 @@ export function CheckoutPage() {
 
     setSubmitting(true)
     try {
-      const apiOrder = await ordersApi.create(toCreateOrderPayload(customer, items))
-      const order = mapApiOrderToTicketOrder(apiOrder)
+      const order = canUseApi()
+        ? mapApiOrderToTicketOrder(await ordersApi.create(toCreateOrderPayload(customer, items)))
+        : buildOrder({
+            items,
+            customer,
+            deliveryFeeCents: settings.deliveryFeeCents,
+          })
       const ticket = generateTicket(
         order,
         settings.storeName,
