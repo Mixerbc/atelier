@@ -9,7 +9,7 @@ import {
   type ReactNode,
 } from 'react'
 import { Navigate, useLocation } from 'react-router-dom'
-import { authApi } from '../lib/api'
+import { authApi, canUseApi } from '../lib/api'
 import type { AdminUser } from '../types'
 
 interface AuthContextValue {
@@ -27,6 +27,11 @@ export function AdminAuthProvider({ children }: { children: ReactNode }) {
   const [loading, setLoading] = useState(true)
 
   const refresh = useCallback(async () => {
+    if (!canUseApi()) {
+      setUser(null)
+      setLoading(false)
+      return
+    }
     try {
       const me = await authApi.me()
       if (!me || typeof me !== 'object' || !('email' in me)) {

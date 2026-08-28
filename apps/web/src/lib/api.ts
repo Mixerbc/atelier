@@ -12,6 +12,13 @@ import type {
 
 const API_BASE = (import.meta.env.VITE_API_URL ?? '').replace(/\/$/, '')
 
+export function canUseApi(): boolean {
+  if (API_BASE) return true
+  if (typeof window === 'undefined') return true
+  const host = window.location.hostname
+  return host === 'localhost' || host === '127.0.0.1'
+}
+
 export class ApiError extends Error {
   status: number
   body: unknown
@@ -39,6 +46,10 @@ function needsCredentials(path: string, auth: boolean): boolean {
 }
 
 async function request<T>(path: string, options: RequestOptions = {}): Promise<T> {
+  if (!canUseApi()) {
+    throw new ApiError(503, 'El servidor de la tienda no está conectado en esta web')
+  }
+
   const { body, auth = false, headers, ...rest } = options
   const init: RequestInit = {
     ...rest,

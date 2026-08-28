@@ -32,7 +32,7 @@ export function SettingsProvider({ children }: { children: ReactNode }) {
       setSettings(data)
       setError(null)
     } catch {
-      setError('No se pudo cargar la configuración de la tienda')
+      setError(null)
     } finally {
       setLoading(false)
     }
