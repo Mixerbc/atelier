@@ -60,7 +60,11 @@ async function request<T>(path: string, options: RequestOptions = {}): Promise<T
     try {
       data = JSON.parse(text)
     } catch {
-      data = text
+      throw new ApiError(
+        response.status,
+        'El servidor de la tienda no está conectado en esta web',
+        text.slice(0, 80),
+      )
     }
   }
 

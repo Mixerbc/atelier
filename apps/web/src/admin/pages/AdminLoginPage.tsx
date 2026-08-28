@@ -14,7 +14,7 @@ export function AdminLoginPage() {
   const [error, setError] = useState<string | null>(null)
   const [submitting, setSubmitting] = useState(false)
 
-  if (!loading && user) {
+  if (!loading && user?.email) {
     const from = (location.state as { from?: string } | null)?.from || '/admin'
     return <Navigate to={from} replace />
   }
@@ -69,6 +69,14 @@ export function AdminLoginPage() {
           </label>
 
           {error ? <p className="text-sm text-atelier-danger">{error}</p> : null}
+          {typeof window !== 'undefined' && window.location.hostname !== 'localhost' ? (
+            <p className="text-xs leading-relaxed text-atelier-gray">
+              En internet el admin aún no tiene servidor. En tu PC abre{' '}
+              <a className="font-semibold text-atelier-gold underline" href="http://localhost:5173/admin/login">
+                http://localhost:5173/admin/login
+              </a>
+            </p>
+          ) : null}
 
           <Button type="submit" fullWidth disabled={submitting}>
             {submitting ? 'Entrando…' : 'Entrar'}

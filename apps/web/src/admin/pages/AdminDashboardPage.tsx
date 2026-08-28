@@ -55,7 +55,7 @@ export function AdminDashboardPage() {
 
       <section className="rounded-xl border border-slate-200 bg-white p-4">
         <h2 className="font-semibold">Pocas piezas</h2>
-        {data.lowStockVariants.length === 0 ? (
+        {data.lowStockVariants?.length === 0 ? (
           <p className="mt-2 text-sm text-slate-600">Sin alertas de existencias.</p>
         ) : (
           <div className="mt-3 overflow-x-auto">
@@ -69,7 +69,7 @@ export function AdminDashboardPage() {
                 </tr>
               </thead>
               <tbody>
-                {data.lowStockVariants.map((variant) => (
+          {data.lowStockVariants?.map((variant) => (
                   <tr key={variant.id} className="border-b border-slate-100">
                     <td className="py-2 pr-4">{variant.product?.name ?? '—'}</td>
                     <td className="py-2 pr-4">{variant.sku}</td>
@@ -86,7 +86,7 @@ export function AdminDashboardPage() {
       <section className="rounded-xl border border-slate-200 bg-white p-4">
         <h2 className="font-semibold">Top productos</h2>
         <ul className="mt-3 space-y-2 text-sm">
-          {data.topProducts.map((item) => (
+          {(data.topProducts ?? []).map((item) => (
             <li key={item.productName} className="flex justify-between gap-3">
               <span>{item.productName}</span>
               <span className="text-slate-600">

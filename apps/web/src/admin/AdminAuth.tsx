@@ -9,7 +9,7 @@ import {
   type ReactNode,
 } from 'react'
 import { Navigate, useLocation } from 'react-router-dom'
-import { ApiError, authApi } from '../lib/api'
+import { authApi } from '../lib/api'
 import type { AdminUser } from '../types'
 
 interface AuthContextValue {
@@ -29,10 +29,13 @@ export function AdminAuthProvider({ children }: { children: ReactNode }) {
   const refresh = useCallback(async () => {
     try {
       const me = await authApi.me()
+      if (!me || typeof me !== 'object' || !('email' in me)) {
+        setUser(null)
+        return
+      }
       setUser(me)
-    } catch (error) {
-      if (error instanceof ApiError && error.status === 401) setUser(null)
-      else setUser(null)
+    } catch {
+      setUser(null)
     } finally {
       setLoading(false)
     }
@@ -44,6 +47,9 @@ export function AdminAuthProvider({ children }: { children: ReactNode }) {
 
   const login = useCallback(async (email: string, password: string) => {
     const me = await authApi.login(email, password)
+    if (!me || typeof me !== 'object' || !('email' in me)) {
+      throw new Error('El servidor de la tienda no está conectado en esta web')
+    }
     setUser(me)
   }, [])
 
@@ -81,7 +87,7 @@ export function RequireAdmin({ children }: { children: ReactNode }) {
     )
   }
 
-  if (!user) {
+  if (!user?.email) {
     return <Navigate to="/admin/login" replace state={{ from: location.pathname }} />
   }
 

@@ -3,6 +3,12 @@
   publish = "apps/web/dist"
 
 [[redirects]]
+  from = "/api/*"
+  to = "/api-missing.json"
+  status = 404
+  force = true
+
+[[redirects]]
   from = "/*"
   to = "/index.html"
   status = 200
